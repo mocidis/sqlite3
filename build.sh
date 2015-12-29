@@ -31,7 +31,7 @@ echo $INSTALL_DIR
 #build for arm first
 make distclean
 #./configure --host=arm-linux-gnueabi --enable-shared=no --enable-static --prefix=$LINUX_ARMV7L
-./configure --host=arm-linux-gnueabi --prefix=$LINUX_ARMV7L
+./configure --host=arm-linux-gnueabihf --prefix=$LINUX_ARMV7L
 make
 make install
 
